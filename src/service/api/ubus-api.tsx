@@ -684,5 +684,5 @@ async show_network_multicast() {
 
 }
 
-export default new UbusApi("http://192.168.15.142/")
+export default new UbusApi("http://192.168.168.1/")
 

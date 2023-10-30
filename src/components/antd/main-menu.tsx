@@ -50,35 +50,44 @@ export const MainMenu = (props: any) => {
     GetItem(t('dashboard'), '', <HomeOutlined />),
 
     GetItem(t('internet'), 'internet', <GlobalOutlined />, [
-      GetItem(t('wan_settings'), 'internet/wan'),
-      GetItem(t('ddns'), 'internet/ddns'),
-      GetItem(t('openvpn'), 'internet/openvpn'),
-      GetItem(t('routing'), 'internet/routing'),
-    ]),
-
-    GetItem(t('local_network'), 'network', <PartitionOutlined />, [
-      GetItem(t('lan_settings'), 'network/lan'),
-      GetItem(t('vlan_settings'), 'network/vlan'),
-      GetItem(t('igmp'), 'network/igmp'),
-      GetItem(t('mesh'), 'network/mesh'),
       GetItem(t('basic_wireless'), 'network/basicwifi'),
-      // GetItem(t('guest_wifi'), 'network/guest'),
+      GetItem(t('wan_settings'), 'internet/wan'),
+      GetItem(t('lan_settings'), 'network/lan'),
+      GetItem(t('mesh'), 'network/mesh'),
+      // GetItem(t('ddns'), 'internet/ddns'),
+      // GetItem(t('openvpn'), 'internet/openvpn'),
+      GetItem(t('routing'), 'internet/routing'),
+      
+      // GetItem(t('vlan_settings'), 'network/vlan'),
+      // GetItem(t('igmp'), 'network/igmp'),
+      
+      
+
     ]),
 
-    GetItem(t('security'), 'security', <SafetyCertificateOutlined />, [
-      GetItem(t('port_forward'), 'security/portforward'),
-      GetItem(t('ip_filter'), 'security/ipfilter'),
-      GetItem(t('url_filter'), 'security/urlfilter'),
-    ]),
+    // GetItem(t('local_network'), 'network', <PartitionOutlined />, [
+    //   GetItem(t('lan_settings'), 'network/lan'),
+    //   // GetItem(t('vlan_settings'), 'network/vlan'),
+    //   // GetItem(t('igmp'), 'network/igmp'),
+    //   GetItem(t('mesh'), 'network/mesh'),
+    //   GetItem(t('basic_wireless'), 'network/basicwifi'),
+    //   // GetItem(t('guest_wifi'), 'network/guest'),
+    // ]),
 
-    GetItem(t('linksafe_service'), 'linksafe', <SolutionOutlined />, [
-      GetItem(t('register'), 'linksafe/register'),
-    ]),
+    // GetItem(t('security'), 'security', <SafetyCertificateOutlined />, [
+    //   GetItem(t('port_forward'), 'security/portforward'),
+    //   GetItem(t('ip_filter'), 'security/ipfilter'),
+    //   GetItem(t('url_filter'), 'security/urlfilter'),
+    // ]),
+
+    // GetItem(t('linksafe_service'), 'linksafe', <SolutionOutlined />, [
+    //   GetItem(t('register'), 'linksafe/register'),
+    // ]),
 
     GetItem(t('system'), 'system', <SettingOutlined />, [
       GetItem(t('basic_settings'), 'system/system'),
-      GetItem(t('Ping'), 'system/ping'),
-      GetItem(t('Traceroute'), 'system/traceroute'),
+      // GetItem(t('Ping'), 'system/ping'),
+      // GetItem(t('Traceroute'), 'system/traceroute'),
       GetItem(t('update_firmware'), 'system/update'),
       GetItem(t('factory_reset'), 'system/rsfactory'),
       GetItem(t('reboot'), 'system/reboot'),
