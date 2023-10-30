@@ -1,0 +1,49 @@
+.inputusername {
+    height: 45px;
+    width: 50%;
+    border-radius: 10px;
+    border: 2px solid rgb(163, 158, 158);
+    justify-content: center;
+    margin-left: 185px;
+    
+}
+
+.inputpassword {
+    margin-top: -15px;
+    margin-left: 185px;
+    height: 45px;
+    width: 50%;
+    border-radius: 10px;
+    border: 2px solid rgb(163, 158, 158);
+    justify-content: center;
+}
+
+.container {
+    background-image: url('./background.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+.buttonlogin{
+    border: none;
+    color: #fff;
+    width: 71%;
+    border-radius: 10px;
+    margin-left: 185px;
+}
+
+.buttonswitch{
+    border-radius: 10px;
+    width: 97%;
+}
+
+/* :where(.css-dev-only-do-not-override-26rdvq).ant-btn-primary:disabled {
+    color: #fff;
+    background-color: #ff3366;
+} */
+
+/* :where(.css-dev-only-do-not-override-26rdvq).ant-form-item .ant-form-item-explain-error {
+    color: #fff;
+   
+} */
